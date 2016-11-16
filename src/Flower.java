@@ -14,7 +14,7 @@ public class Flower {
 
     }
 
-    public FlowerType getType() {7
+    public FlowerType getType() {
         return special.getType();
     }
 
