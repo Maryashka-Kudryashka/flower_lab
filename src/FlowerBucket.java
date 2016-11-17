@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class FlowerBucket {
+public class FlowerBucket implements Item{
     private int defaultSize = 10;
 
     private int insertIndex = 0; // insert, or better create method length()
@@ -42,7 +42,7 @@ public class FlowerBucket {
         return s;
     }
 
-    public double getTotalPrice() {
+    public double price() {
         double sum = 0;
         for (int i = 0; i < insertIndex; i ++) {
             sum += a[i].getPrice();
@@ -93,5 +93,9 @@ public class FlowerBucket {
         }
 
         return null;
+    }
+
+    public String  getDescription(){
+        return "This is flower bouqette ";
     }
 }
