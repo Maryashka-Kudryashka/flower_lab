@@ -1,3 +1,5 @@
+package Enum;
+
 public enum FlowerColor {
     RED, WHITE, PURPLE, BLUE;
     public String toString(){

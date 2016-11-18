@@ -1,7 +1,11 @@
+package Main_pac;
+
+import Decorators.*;
+import Enum.*;
 
 import java.util.ArrayList;
 
-public class FlowerBucket implements Item{
+public class FlowerBucket implements Item {
     private int defaultSize = 10;
 
     private int insertIndex = 0; // insert, or better create method length()
@@ -39,7 +43,7 @@ public class FlowerBucket implements Item{
         for (int i = 0; i < insertIndex; i ++) {
             s += a[i].toString() + "\n";
         }
-        return s;
+        return s + "\n";
     }
 
     public double price() {

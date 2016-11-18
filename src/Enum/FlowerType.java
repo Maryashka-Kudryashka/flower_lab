@@ -1,13 +1,15 @@
+package Enum;
+
 public enum FlowerType {
-    ROMASHKA, MAK, ROZA, TULPAN;
+    ROMASHKA, MAK, CACTUS, TULPAN;
     public String toString(){
         switch (this){
             case ROMASHKA:
-                return "Romashka";
+                return "Flowers.Romashka";
             case MAK:
                 return "Mak";
-            case ROZA:
-                return "Roza";
+            case CACTUS:
+                return "Flowers.Cactus";
             case TULPAN:
                 return "Tulpan";
             default:

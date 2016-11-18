@@ -1,6 +1,7 @@
+package Main_pac;
 
-public class Flower {
-
+import Enum.*;
+public abstract class Flower {
 
     protected Flower_Special special;
     protected boolean fresh;

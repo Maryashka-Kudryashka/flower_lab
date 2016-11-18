@@ -1,6 +1,8 @@
+package Enum;
+
 public class Flower_Special {
     protected FlowerColor color;
-    protected double lenght;
+    public double lenght;
     protected FlowerType type;
 
     public Flower_Special(FlowerColor color, double lenght, FlowerType type) {
