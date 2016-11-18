@@ -1,13 +1,8 @@
 package Main_pac;
 
-import Decorators.BasketDecorator;
-import Decorators.PaperDecorator;
-import Decorators.RibbonDecorator;
-import Delivery.PostDeliveryStrategy;
 import Enum.*;
 import Flowers.Cactus;
 import Flowers.Romashka;
-import Main_pac.Order;
 import Payment.CreditCardPaymentStrategy;
 
 public class FlowerMain {
