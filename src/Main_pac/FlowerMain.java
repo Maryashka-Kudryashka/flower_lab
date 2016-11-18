@@ -1,9 +1,6 @@
 package Main_pac;
 
 import Enum.*;
-import Flowers.Cactus;
-import Flowers.Romashka;
-import Payment.CreditCardPaymentStrategy;
 
 public class FlowerMain {
 
